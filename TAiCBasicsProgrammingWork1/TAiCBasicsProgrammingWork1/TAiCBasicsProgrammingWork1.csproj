@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>Pawel Wlizlo</Authors>
+    <Company>Testware.IT Chipserv Pawel Wlizlo</Company>
+    <Product>Test automation in CSharp lvl 1</Product>
+    <StartupObject>TAiCBasicsProgrammingWork1.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Helper">
+      <HintPath>..\Lib\Helper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
