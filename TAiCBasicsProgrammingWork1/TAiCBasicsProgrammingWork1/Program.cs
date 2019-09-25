@@ -6,19 +6,33 @@ namespace TAiCBasicsProgrammingWork1
     {
         static void Main(string[] args)
         {
-            /// Task 1
-            /// 1.1 Uncomment line 'Task1DataTypes.Verify();'
-            /// 1.2 Get inside method
-            /// 1.3 Do all steps inside
-            /// 1.4 When all steps are done, get back here
+            /// Tasks group 1
+            /// - Uncomment line 'Task1DataTypes.Verify();'
+            /// - Get inside method
+            /// - Do all steps inside
+            /// - When all steps are done, get back here
             //new Task1DataTypes().Verify();
 
-            /// Task 2
-            /// 2.1 Uncomment line 'new Task2Operators().Verify();'
-            /// 2.2 Get inside method
-            /// 2.3 Do all steps inside
-            /// 2.4 When all steps are done, get back here
+            /// Tasks group 2
+            /// - Uncomment line 'new Task2Operators().Verify();'
+            /// - Get inside method
+            /// - Do all steps inside
+            /// - When all steps are done, get back here
             ///new Task2Operators().Verify();
+
+            /// Task group 3
+            /// - Uncomment line 'new Task3Loops().Verify();'
+            /// - Get inside method
+            /// - Do all steps inside
+            /// - When all steps are done, get back here
+            //new Task3Loops().Verify();
+
+            /// Task group 4
+            /// - Uncomment line 'new Task4Conditions().Verify();'
+            /// - Get inside method
+            /// - Do all steps inside
+            /// - When all steps are done, get back here
+            //new Task4Conditions().Verify();
         }
     }
 }

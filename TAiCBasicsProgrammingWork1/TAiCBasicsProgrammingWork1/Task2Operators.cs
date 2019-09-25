@@ -9,7 +9,8 @@ namespace TAiCBasicsProgrammingWork1
     {
         public void Verify()
         {
-            /// TODO:
+            Console.WriteLine("=================================== Task 2.1:");
+            /// TODO task 2.1:
             /// 2.1 Uncomment below 
             /// 2.2 Fill all missing operators. Code must be compileable
             /// 2.3 To verify if results are OK, run code;
@@ -25,10 +26,12 @@ namespace TAiCBasicsProgrammingWork1
             Console.WriteLine($"Result from 'c' should be 1. Actual {c}");
             */
             ///-----------------------------------------------------------------------------------------------------
-            /// TODO second task:
-            /// 2.4 Uncomment below
-            /// 2.5 Write missing code, code must be compileable and runnable
-            /// 2.6 To verify if results are OK, run code;
+
+            Console.WriteLine("=================================== Task 2.2:");
+            /// TODO task 2.2:
+            /// - Uncomment below
+            /// - Write missing code, code must be compileable and runnable
+            /// - To verify if results are OK, run code;
             /*
            
               
@@ -39,10 +42,12 @@ namespace TAiCBasicsProgrammingWork1
             ///
 
             ///-----------------------------------------------------------------------------------------------------
-            /// TODO third task:
-            /// 2.7 Uncomment below
-            /// 2.8 Write missing code, code must be compileable and runnable
-            /// 2.9 To verify if results are OK, run code;
+
+            Console.WriteLine("=================================== Task 2.3:");
+            /// TODO task 2.3:
+            /// - Uncomment below
+            /// - Write missing code, code must be compileable and runnable
+            /// - To verify if results are OK, run code;
 
             /*
             Console.WriteLine($"6 is bigger than 5. Result should be true. Actual: {IsBiggerThan5}");
