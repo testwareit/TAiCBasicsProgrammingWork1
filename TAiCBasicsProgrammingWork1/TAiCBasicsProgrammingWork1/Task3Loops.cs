@@ -15,12 +15,12 @@ namespace TAiCBasicsProgrammingWork1
             /// - code must be compileable and runnable
             /// - To verify if results are OK, run code;
 
-            /*
-            for ()
+
+            for (int i=1; i<=10; i++)
             {
                 Console.WriteLine($"This is number: {i}");
             }
-            */
+            
 
             ///-----------------------------------------------------------------------------------------------------
 
@@ -31,13 +31,14 @@ namespace TAiCBasicsProgrammingWork1
             /// - code must be compileable and runnable
             /// - To verify if results are OK, run code;
 
-            /*
-            int counter;
-            while ()
+            
+            int counter = 9;
+            while (counter >= 1)
             {
                 Console.WriteLine($"Number: {counter}");
+                counter--;
             }
-            */
+            
 
             ///-----------------------------------------------------------------------------------------------------
 
@@ -46,6 +47,14 @@ namespace TAiCBasicsProgrammingWork1
             /// - Write code: Print even numbers from 0 to 20;
             /// - code must be compileable and runnable
             /// - To verify if results are OK, run code;
+
+            int even = 0;
+            do
+            {
+                Console.WriteLine($"This is number: {even}");
+                even += 2;
+            }
+            while (even <= 20);
         }
     }
 }

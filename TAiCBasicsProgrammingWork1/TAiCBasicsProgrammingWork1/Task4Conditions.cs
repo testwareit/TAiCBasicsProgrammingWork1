@@ -15,10 +15,10 @@ namespace TAiCBasicsProgrammingWork1
             /// - code must be compileable and runnable
             /// - To verify if results are OK, run code;
             
-            /*
+            
             int persons = 100;
 
-            if ()
+            if (persons != 100)
             {
                 Console.WriteLine("No, there's no 100 persons");
             }
@@ -26,7 +26,7 @@ namespace TAiCBasicsProgrammingWork1
             {
                 Console.WriteLine("Yes, there're 100 persons");
             }
-            */
+            
             ///-----------------------------------------------------------------------------------------------------
 
             Console.WriteLine("=================================== Task 4.2:");
@@ -37,10 +37,24 @@ namespace TAiCBasicsProgrammingWork1
             /// - code must be compileable and runnable
             /// - To verify if results are OK, run code;
 
-            /*
-            int howMuch
 
-            */
+            int howMuch = 3;
+
+            switch (howMuch)
+            {
+                case 3:
+                    Console.WriteLine("Three");
+                    break;
+                case 2:
+                    Console.WriteLine("Two");
+                    break;
+                case 1:
+                    Console.WriteLine("One");
+                    break;
+                default:
+                    Console.WriteLine("Undefined");
+                    break;
+            }
         }
     }
 }

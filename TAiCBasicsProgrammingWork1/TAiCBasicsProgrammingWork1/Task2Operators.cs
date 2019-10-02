@@ -15,16 +15,16 @@ namespace TAiCBasicsProgrammingWork1
             /// 2.2 Fill all missing operators. Code must be compileable
             /// 2.3 To verify if results are OK, run code;
 
-            /*
-            int a = 3  3;
+            
+            int a = 3 * 3;
             Console.WriteLine($"Result from 'a' should be 9. Actual {a}");
 
-            float b = 20  4;
+            float b = 20 / 4;
             Console.WriteLine($"Result from 'b' should be 5. Actual {b}");
 
-            int c = 9  2;
+            int c = 9 % 2;
             Console.WriteLine($"Result from 'c' should be 1. Actual {c}");
-            */
+            
             ///-----------------------------------------------------------------------------------------------------
 
             Console.WriteLine("=================================== Task 2.2:");
@@ -32,13 +32,15 @@ namespace TAiCBasicsProgrammingWork1
             /// - Uncomment below
             /// - Write missing code, code must be compileable and runnable
             /// - To verify if results are OK, run code;
-            /*
-           
-              
-            Console.WriteLine("Person age: "  personAge);
-            Console.WriteLine("Person age in 5 years: "  personAgeIn5Years);
-            Console.WriteLine("Person half age: "  personHalfAge);
-            */
+
+
+            int personAge = 10;
+            int personAgeIn5Years = personAge + 5;
+            int personHalfAge = personAge / 2;
+            Console.WriteLine("Person age: ", personAge);
+            Console.WriteLine("Person age in 5 years: ",  personAgeIn5Years);
+            Console.WriteLine("Person half age: ",  personHalfAge);
+            
             ///
 
             ///-----------------------------------------------------------------------------------------------------
@@ -49,11 +51,13 @@ namespace TAiCBasicsProgrammingWork1
             /// - Write missing code, code must be compileable and runnable
             /// - To verify if results are OK, run code;
 
-            /*
+            bool IsBiggerThan5 = 6 > 5;
+            bool TenIsSmallerOrEqualToEleven = 10 <= 11;
+            bool TrueOppositeToFalse = true != false;
             Console.WriteLine($"6 is bigger than 5. Result should be true. Actual: {IsBiggerThan5}");
             Console.WriteLine($"10 is smaller or equal to 11. Result should be true. Actual: {TenIsSmallerOrEqualToEleven}");
             Console.WriteLine($"True is opposite to false. Result should be true. Actual: {TrueOppositeToFalse}");
-            */
+            
         }
     }
 }
